@@ -1,7 +1,7 @@
 import {  StateCreator } from 'zustand'
 import { Recipe } from '../types'
 import { RecipesSliceType, createRecipesSlice } from './recipeSlice'
-// import { NotificationSliceType, createNotificationSlice } from './notificationSlice'
+import { createNotificationSlice, NotificationSliceType } from './notificationSlice'
 
 export type FavoritesSliceType = {
     favorites: Recipe[]
